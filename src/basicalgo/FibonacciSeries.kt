@@ -32,7 +32,3 @@ fun recursionSeries(n: Int): Int {
     if (n <= 1) return n
     return recursionSeries(n - 1) + recursionSeries(n - 2)
 }
-
-fun fib3() {
-
-}
